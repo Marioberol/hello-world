@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilosCss/estilos2.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-text">
+                <span>Bienvenido a nuestra Tienda</span>
+                <h1>Ofertas Especiales</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Perferendis sapiente amet aspernatur sunt vero iure exercitationem
+                    labore rerum quia enim, optio cupiditate, suscipit pariatur reiciendis.
+                    Dolor, libero assumenda. Dolorem, ratione!
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">Informacion</a>
+                    <a href="#" class="btn-1">leer mas</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/bag.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="oferts container">
+
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <a href="#">leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s1.png" alt="?">
+
+            </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <a href="#">leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s2.png" alt="?">
+    
+            </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <a href="#">leer mas</a>
+            </div>
+                <div class="ofert-img">
+                <img src="imagenes/s3.png" alt="?">
+        
+            </div>        
+        </div>
+
+    </section>
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="imagenes/pr1.png" alt="?">
+                <div class="product-text">
+                    <h3>Lorem.</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="1">
+                        agregar al acrrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr2.png" alt="?">
+                <div class="product-text">
+                    <h3>Lorem.</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="2">
+                        agregar al acrrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr1.png" alt="?">
+                <div class="product-text">
+                    <h3>Lorem.</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="3">
+                        agregar al acrrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="sript.js"></script>
+</body>
+</html>

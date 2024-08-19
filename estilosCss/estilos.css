@@ -6,10 +6,11 @@ body {
 /* Estilos para la barra de navegación */
 .navbar {
     background-color: #333;
-    overflow: hidden;
+    overflow: hidden ;
+
 }
 .navbar a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -33,6 +34,11 @@ body {
 }
 /* Estilo para el contenedor de la página */
 .container {
-    max-width: 1200px;
+    border: solid red;
     margin: 0 auto;
+}
+.imgcontainer img{
+    width: 100%;
+    
+    
 }
