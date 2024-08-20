@@ -102,7 +102,7 @@ th, td {
     align-items: center;
 }
 
-.header-text{
+.header-txt{
     flex-basis: 50%;
     margin-right: 25px;
 }
@@ -112,5 +112,76 @@ span{
     font-weight: 600;
     display: block;
     margin-bottom: 25px;
-    
+
+}
+
+.header-txt h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #111419;
+    margin-bottom: 35px;
+}
+
+.header-txt p{
+    font-size: 17px;
+    color: #515557;
+    margin-bottom: 35px;
+}
+
+.butons{
+    display: flex;
+}
+.btn-1{
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #9bce21;
+    margin-right: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+.header-img{
+    flex-basis: 50%;
+    text-align: center;
+}
+.header-img img{
+    height: 550px;
+}
+.oferts {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofert-1 {
+    flex-basis: calc(33.3% - 20px);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b1{
+    background-color: #91ddd8;
+}
+.b2{
+    background-color: #fa9824;
+}
+.b3{
+    background-color: #9bce21;
+}
+
+.ofert-txt{
+    flex-basis: 50%;
+}
+.ofert-txt h3{
+    color: #ffffff;
+    font-size: 20px;
+}
+.ofert-txt a{
+    color: #ffffff;
+
+}
+.ofert-img {
+    flex-basis: 50%;
 }
