@@ -41,7 +41,7 @@ body {
 }
 /* Estilo para el contenedor de la página */
 .container {
-    border: solid red;
+    
     margin: 0 auto;
 }
 .imgcontainer img{
