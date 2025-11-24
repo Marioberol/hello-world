@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="estilosCss/estilosunomas.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Mi Tienda Online</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a Mi Tienda Online</h1>
+            <p>Encuentra los mejores productos al mejor precio.</p>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-container">
+            <div class="producto" data-id="1">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>$10.00</p>
+                <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+            </div>
+            <div class="producto" data-id="2">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>$20.00</p>
+                <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+            </div>
+            <!-- Agrega más productos aquí -->
+        </div>
+    </section>
+
+    <!-- Carrito de compras -->
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito">
+            <!-- Los productos agregados aparecerán aquí -->
+        </ul>
+        <p>Total: $<span id="total">0.00</span></p>
+        <button onclick="comprar()">Comprar</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Mi Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts/scriptunomas.js"></script>
+</body>
+</html>
