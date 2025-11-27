@@ -1,0 +1,23 @@
+div a{ 
+    height: 30px;
+    width: 30px;
+
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+    clip-path: circle(50% at 0 0);
+    transition: all 2s ease;
+
+}
+.container:hover{
+    clip-path: circle(100%);
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+}
